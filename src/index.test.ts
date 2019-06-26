@@ -1,13 +1,21 @@
-import { getHttpStatus, HttpStatus, INTERNAL_SERVER_ERROR } from './index';
+import { getHttpStatus, HttpStatus, NOT_FOUND } from './index';
 
 test('getHttpStatus', () => {
-  expect(getHttpStatus(500)).toEqual(INTERNAL_SERVER_ERROR);
-  expect(HttpStatus[500]).toEqual(INTERNAL_SERVER_ERROR);
-  expect(HttpStatus.INTERNAL_SERVER_ERROR).toEqual(INTERNAL_SERVER_ERROR);
-  expect(getHttpStatus('INTERNAL_SERVER_ERROR')).toEqual(INTERNAL_SERVER_ERROR);
-  expect(getHttpStatus('  internal server  error ')).toEqual(
-    INTERNAL_SERVER_ERROR
-  );
+  expect(getHttpStatus(404)).toEqual(NOT_FOUND);
+
+  expect(HttpStatus[404]).toEqual(NOT_FOUND);
+
+  expect(HttpStatus.not_found).toEqual(NOT_FOUND);
+
+  expect(getHttpStatus(404)).toEqual(NOT_FOUND);
+
+  expect(getHttpStatus('404')).toEqual(NOT_FOUND);
+
+  expect(getHttpStatus('not_found')).toEqual(NOT_FOUND);
+
+  expect(getHttpStatus('  not  found ')).toEqual(NOT_FOUND);
+
   expect(getHttpStatus(5001 as any)).toBe(undefined);
+
   expect(getHttpStatus('bad-name' as any)).toBe(undefined);
 });

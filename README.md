@@ -21,21 +21,23 @@ yarn add -D tshttpcode
 ```typescript
 import { getHttpStatus, HttpStatus, NOT_FOUND } from 'tshttpcode';
 
-NOT_FOUND // { code: 404, name: 'NOT_FOUND', text: 'Not Found' }
+NOT_FOUND // { code: 404, name: 'not_found', text: 'Not Found' }
 
 HttpStatus[404] === NOT_FOUND
 
-HttpStatus.NOT_FOUND === NOT_FOUND
+HttpStatus.not_found === NOT_FOUND
 
 HttpStatus.BAD_STATUS_NAME === undefined // typescript error
 
 getHttpStatus(404) === NOT_FOUND
 
+getHttpStatus('404') === NOT_FOUND
+
 getHttpStatus(9000) === undefined // typescript error
 
 getHttpStatus('NOT_FOUND') === NOT_FOUND
 
-getHttpStatus(' not  found ') === NOT_FOUND
+getHttpStatus(' nOt  fOuNd ') === NOT_FOUND
 ```
 
 ## License

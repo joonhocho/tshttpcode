@@ -2,315 +2,315 @@ import { HttpStatusCode, HttpStatusName, IHttpStatus } from './ts';
 
 export const CONTINUE: IHttpStatus = {
   code: 100,
-  name: 'CONTINUE',
+  name: 'continue',
   text: 'Continue',
 };
 export const SWITCHING_PROTOCOLS: IHttpStatus = {
   code: 101,
-  name: 'SWITCHING_PROTOCOLS',
+  name: 'switching_protocols',
   text: 'Switching Protocols',
 };
 export const PROCESSING: IHttpStatus = {
   code: 102,
-  name: 'PROCESSING',
+  name: 'processing',
   text: 'Processing',
 };
 export const EARLY_HINTS: IHttpStatus = {
   code: 103,
-  name: 'EARLY_HINTS',
+  name: 'early_hints',
   text: 'Early Hints',
 }; // iana
-export const OK: IHttpStatus = { code: 200, name: 'OK', text: 'OK' };
+export const OK: IHttpStatus = { code: 200, name: 'ok', text: 'OK' };
 export const CREATED: IHttpStatus = {
   code: 201,
-  name: 'CREATED',
+  name: 'created',
   text: 'Created',
 };
 export const ACCEPTED: IHttpStatus = {
   code: 202,
-  name: 'ACCEPTED',
+  name: 'accepted',
   text: 'Accepted',
 };
 export const NON_AUTHORITATIVE_INFORMATION: IHttpStatus = {
   code: 203,
-  name: 'NON_AUTHORITATIVE_INFORMATION',
+  name: 'non_authoritative_information',
   text: 'Non-Authoritative Information',
 };
 export const NO_CONTENT: IHttpStatus = {
   code: 204,
-  name: 'NO_CONTENT',
+  name: 'no_content',
   text: 'No Content',
 };
 export const RESET_CONTENT: IHttpStatus = {
   code: 205,
-  name: 'RESET_CONTENT',
+  name: 'reset_content',
   text: 'Reset Content',
 };
 export const PARTIAL_CONTENT: IHttpStatus = {
   code: 206,
-  name: 'PARTIAL_CONTENT',
+  name: 'partial_content',
   text: 'Partial Content',
 };
 export const MULTI_STATUS: IHttpStatus = {
   code: 207,
-  name: 'MULTI_STATUS',
+  name: 'multi_status',
   text: 'Multi-Status',
 };
 export const ALREADY_REPORTED: IHttpStatus = {
   code: 208,
-  name: 'ALREADY_REPORTED',
+  name: 'already_reported',
   text: 'Already Reported',
 }; // iana
 export const IM_USED: IHttpStatus = {
   code: 226,
-  name: 'IM_USED',
+  name: 'im_used',
   text: 'IM Used',
 }; // iana
 export const MULTIPLE_CHOICES: IHttpStatus = {
   code: 300,
-  name: 'MULTIPLE_CHOICES',
+  name: 'multiple_choices',
   text: 'Multiple Choices',
 };
 export const MOVED_PERMANENTLY: IHttpStatus = {
   code: 301,
-  name: 'MOVED_PERMANENTLY',
+  name: 'moved_permanently',
   text: 'Moved Permanently',
 };
-export const FOUND: IHttpStatus = { code: 302, name: 'FOUND', text: 'Found' };
+export const FOUND: IHttpStatus = { code: 302, name: 'found', text: 'Found' };
 export const SEE_OTHER: IHttpStatus = {
   code: 303,
-  name: 'SEE_OTHER',
+  name: 'see_other',
   text: 'See Other',
 };
 export const NOT_MODIFIED: IHttpStatus = {
   code: 304,
-  name: 'NOT_MODIFIED',
+  name: 'not_modified',
   text: 'Not Modified',
 };
 export const USE_PROXY: IHttpStatus = {
   code: 305,
-  name: 'USE_PROXY',
+  name: 'use_proxy',
   text: 'Use Proxy',
 };
 export const SWITCH_PROXY: IHttpStatus = {
   code: 306,
-  name: 'SWITCH_PROXY',
+  name: 'switch_proxy',
   text: 'Switch Proxy',
 }; // no longer used
 export const TEMPORARY_REDIRECT: IHttpStatus = {
   code: 307,
-  name: 'TEMPORARY_REDIRECT',
+  name: 'temporary_redirect',
   text: 'Temporary Redirect',
 };
 export const PERMANENT_REDIRECT: IHttpStatus = {
   code: 308,
-  name: 'PERMANENT_REDIRECT',
+  name: 'permanent_redirect',
   text: 'Permanent Redirect',
 }; // RFC 7538
 export const BAD_REQUEST: IHttpStatus = {
   code: 400,
-  name: 'BAD_REQUEST',
+  name: 'bad_request',
   text: 'Bad Request',
 };
 export const UNAUTHORIZED: IHttpStatus = {
   code: 401,
-  name: 'UNAUTHORIZED',
+  name: 'unauthorized',
   text: 'Unauthorized',
 };
 export const PAYMENT_REQUIRED: IHttpStatus = {
   code: 402,
-  name: 'PAYMENT_REQUIRED',
+  name: 'payment_required',
   text: 'Payment Required',
 };
 export const FORBIDDEN: IHttpStatus = {
   code: 403,
-  name: 'FORBIDDEN',
+  name: 'forbidden',
   text: 'Forbidden',
 };
 export const NOT_FOUND: IHttpStatus = {
   code: 404,
-  name: 'NOT_FOUND',
+  name: 'not_found',
   text: 'Not Found',
 };
 export const METHOD_NOT_ALLOWED: IHttpStatus = {
   code: 405,
-  name: 'METHOD_NOT_ALLOWED',
+  name: 'method_not_allowed',
   text: 'Method Not Allowed',
 };
 export const NOT_ACCEPTABLE: IHttpStatus = {
   code: 406,
-  name: 'NOT_ACCEPTABLE',
+  name: 'not_acceptable',
   text: 'Not Acceptable',
 };
 export const PROXY_AUTHENTICATION_REQUIRED: IHttpStatus = {
   code: 407,
-  name: 'PROXY_AUTHENTICATION_REQUIRED',
+  name: 'proxy_authentication_required',
   text: 'Proxy Authentication Required',
 };
 export const REQUEST_TIMEOUT: IHttpStatus = {
   code: 408,
-  name: 'REQUEST_TIMEOUT',
+  name: 'request_timeout',
   text: 'Request Timeout',
 };
 export const CONFLICT: IHttpStatus = {
   code: 409,
-  name: 'CONFLICT',
+  name: 'conflict',
   text: 'Conflict',
 };
-export const GONE: IHttpStatus = { code: 410, name: 'GONE', text: 'Gone' };
+export const GONE: IHttpStatus = { code: 410, name: 'gone', text: 'Gone' };
 export const LENGTH_REQUIRED: IHttpStatus = {
   code: 411,
-  name: 'LENGTH_REQUIRED',
+  name: 'length_required',
   text: 'Length Required',
 };
 export const PRECONDITION_FAILED: IHttpStatus = {
   code: 412,
-  name: 'PRECONDITION_FAILED',
+  name: 'precondition_failed',
   text: 'Precondition Failed',
 };
 export const PAYLOAD_TOO_LARGE: IHttpStatus = {
   code: 413,
-  name: 'PAYLOAD_TOO_LARGE',
+  name: 'payload_too_large',
   text: 'Payload Too Large',
 }; // RFC 7231
 export const URI_TOO_LONG: IHttpStatus = {
   code: 414,
-  name: 'URI_TOO_LONG',
+  name: 'uri_too_long',
   text: 'URI Too Long',
 }; // RFC 7231
 export const UNSUPPORTED_MEDIA_TYPE: IHttpStatus = {
   code: 415,
-  name: 'UNSUPPORTED_MEDIA_TYPE',
+  name: 'unsupported_media_type',
   text: 'Unsupported Media Type',
 };
 export const RANGE_NOT_SATISFIABLE: IHttpStatus = {
   code: 416,
-  name: 'RANGE_NOT_SATISFIABLE',
+  name: 'range_not_satisfiable',
   text: 'Range Not Satisfiable',
 };
 export const EXPECTATION_FAILED: IHttpStatus = {
   code: 417,
-  name: 'EXPECTATION_FAILED',
+  name: 'expectation_failed',
   text: 'Expectation Failed',
 };
 export const IM_A_TEAPOT: IHttpStatus = {
   code: 418,
-  name: 'IM_A_TEAPOT',
+  name: 'im_a_teapot',
   text: "I'm a teapot",
 };
 export const INSUFFICIENT_SPACE_ON_RESOURCE: IHttpStatus = {
   code: 419,
-  name: 'INSUFFICIENT_SPACE_ON_RESOURCE',
+  name: 'insufficient_space_on_resource',
   text: 'Insufficient Space on Resource',
 };
 export const METHOD_FAILURE: IHttpStatus = {
   code: 420,
-  name: 'METHOD_FAILURE',
+  name: 'method_failure',
   text: 'Method Failure',
 };
 export const MISDIRECTED_REQUEST: IHttpStatus = {
   code: 421,
-  name: 'MISDIRECTED_REQUEST',
+  name: 'misdirected_request',
   text: 'Misdirected Request',
 };
 export const UNPROCESSABLE_ENTITY: IHttpStatus = {
   code: 422,
-  name: 'UNPROCESSABLE_ENTITY',
+  name: 'unprocessable_entity',
   text: 'Unprocessable Entity',
 };
 export const LOCKED: IHttpStatus = {
   code: 423,
-  name: 'LOCKED',
+  name: 'locked',
   text: 'Locked',
 };
 export const FAILED_DEPENDENCY: IHttpStatus = {
   code: 424,
-  name: 'FAILED_DEPENDENCY',
+  name: 'failed_dependency',
   text: 'Failed Dependency',
 };
 export const TOO_EARLY: IHttpStatus = {
   code: 425,
-  name: 'TOO_EARLY',
+  name: 'too_early',
   text: 'Too Early',
 };
 export const UPGRADE_REQUIRED: IHttpStatus = {
   code: 426,
-  name: 'UPGRADE_REQUIRED',
+  name: 'upgrade_required',
   text: 'Upgrade Required',
 };
 export const PRECONDITION_REQUIRED: IHttpStatus = {
   code: 428,
-  name: 'PRECONDITION_REQUIRED',
+  name: 'precondition_required',
   text: 'Precondition Required',
 };
 export const TOO_MANY_REQUESTS: IHttpStatus = {
   code: 429,
-  name: 'TOO_MANY_REQUESTS',
+  name: 'too_many_requests',
   text: 'Too Many Requests',
 };
 export const REQUEST_HEADER_FIELDS_TOO_LARGE: IHttpStatus = {
   code: 431,
-  name: 'REQUEST_HEADER_FIELDS_TOO_LARGE',
+  name: 'request_header_fields_too_large',
   text: 'Request Header Fields Too Large',
 };
 export const UNAVAILABLE_FOR_LEGAL_REASONS: IHttpStatus = {
   code: 451,
-  name: 'UNAVAILABLE_FOR_LEGAL_REASONS',
+  name: 'unavailable_for_legal_reasons',
   text: 'Unavailable For Legal Reasons',
 };
 export const INTERNAL_SERVER_ERROR: IHttpStatus = {
   code: 500,
-  name: 'INTERNAL_SERVER_ERROR',
+  name: 'internal_server_error',
   text: 'Internal Server Error',
 };
 export const NOT_IMPLEMENTED: IHttpStatus = {
   code: 501,
-  name: 'NOT_IMPLEMENTED',
+  name: 'not_implemented',
   text: 'Not Implemented',
 };
 export const BAD_GATEWAY: IHttpStatus = {
   code: 502,
-  name: 'BAD_GATEWAY',
+  name: 'bad_gateway',
   text: 'Bad Gateway',
 };
 export const SERVICE_UNAVAILABLE: IHttpStatus = {
   code: 503,
-  name: 'SERVICE_UNAVAILABLE',
+  name: 'service_unavailable',
   text: 'Service Unavailable',
 };
 export const GATEWAY_TIMEOUT: IHttpStatus = {
   code: 504,
-  name: 'GATEWAY_TIMEOUT',
+  name: 'gateway_timeout',
   text: 'Gateway Timeout',
 };
 export const HTTP_VERSION_NOT_SUPPORTED: IHttpStatus = {
   code: 505,
-  name: 'HTTP_VERSION_NOT_SUPPORTED',
+  name: 'http_version_not_supported',
   text: 'HTTP Version Not Supported',
 };
 export const VARIANT_ALSO_NEGOTIATES: IHttpStatus = {
   code: 506,
-  name: 'VARIANT_ALSO_NEGOTIATES',
+  name: 'variant_also_negotiates',
   text: 'Variant Also Negotiates',
 };
 export const INSUFFICIENT_STORAGE: IHttpStatus = {
   code: 507,
-  name: 'INSUFFICIENT_STORAGE',
+  name: 'insufficient_storage',
   text: 'Insufficient Storage',
 };
 export const LOOP_DETECTED: IHttpStatus = {
   code: 508,
-  name: 'LOOP_DETECTED',
+  name: 'loop_detected',
   text: 'Loop Detected',
 };
 export const NOT_EXTENDED: IHttpStatus = {
   code: 510,
-  name: 'NOT_EXTENDED',
+  name: 'not_extended',
   text: 'Not Extended',
 };
 export const NETWORK_AUTHENTICATION_REQUIRED: IHttpStatus = {
   code: 511,
-  name: 'NETWORK_AUTHENTICATION_REQUIRED',
+  name: 'network_authentication_required',
   text: 'Network Authentication Required',
 };
 
@@ -406,7 +406,7 @@ export const getHttpStatus = (
     return map[codeOrName];
   }
   if (typeof codeOrName === 'string') {
-    const name = codeOrName.replace(nonAlpha, '').toUpperCase();
+    const name = codeOrName.replace(nonAlpha, '').toLowerCase();
     if (map.hasOwnProperty(name)) {
       return map[name];
     }
