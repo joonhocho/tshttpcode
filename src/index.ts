@@ -1,5 +1,7 @@
 import { HttpStatusCode, HttpStatusName, IHttpStatus } from './ts';
 
+export { HttpStatusCode, HttpStatusName, IHttpStatus };
+
 export const CONTINUE: IHttpStatus = {
   code: 100,
   name: 'continue',
