@@ -1,6 +1,6 @@
 {
   "name": "tshttpcode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "HTTP Status Code enum in TypeScript",
   "keywords": [
     "http",
