@@ -15,7 +15,7 @@
   "browser": "dist/browser/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "all": "npm run clean && npm run format && npm run lint:fix && npm run test && npm run build:all",
+    "all": "npm run clean && npm run format && npm run lint:fix && npm run build:all && npm run test",
     "build:all": "npm run build:module && npm run build:node && npm run build:browser",
     "build:browser": "tsc -p ./tsconfig.browser.json && tscpaths -p ./tsconfig.browser.json -s ./src -o ./dist/browser",
     "build:module": "tsc -p ./tsconfig.module.json && tscpaths -p ./tsconfig.module.json -s ./src -o ./lib",
