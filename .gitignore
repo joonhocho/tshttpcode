@@ -61,9 +61,10 @@ typings/
 .next
 
 # Compiled
-lib
+dist
 es5
 es6
+lib
 
 # OS
 .DS_Store
