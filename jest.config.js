@@ -9,7 +9,7 @@ module.exports = {
     '^src/(.*)': '<rootDir>/src/$1',
   },
   testEnvironment: 'node',
-  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$',
+  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(t|j)sx?$',
   transform: {
     '^.+\\.tsx?$': 'ts-jest',
   },
