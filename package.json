@@ -46,7 +46,7 @@
   "homepage": "https://github.com/joonhocho/tshttpcode#readme",
   "devDependencies": {
     "@types/jest": "^24.0.15",
-    "@types/node": "^12.0.10",
+    "@types/node": "^12.6.2",
     "coveralls": "^3.0.4",
     "jest": "^24.8.0",
     "pre-commit": "^1.2.2",
@@ -57,6 +57,6 @@
     "tslint": "^5.18.0",
     "tslint-config-airbnb": "^5.11.1",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.5.2"
+    "typescript": "^3.5.3"
   }
 }
