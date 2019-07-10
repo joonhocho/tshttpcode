@@ -249,6 +249,7 @@ xcuserdata/
 !out/
 *.config.js
 *.config.ts
+*.md
 .*ignore
 .*rc
 .gitignore
@@ -257,4 +258,3 @@ now*.json
 src
 tsconfig*.json
 tslint.json
-*.md
