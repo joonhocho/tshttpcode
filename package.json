@@ -1,6 +1,6 @@
 {
   "name": "tshttpcode",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "HTTP Status Code enum in TypeScript",
   "keywords": [
     "http",
@@ -22,7 +22,7 @@
     "build:node": "tsc -p ./tsconfig.node.json && tscpaths -p ./tsconfig.node.json -s ./src -o ./dist/node",
     "clean": "rm -rf ./lib ./dist ./coverage",
     "format": "prettier --write \"./*.{js,jsx,ts,tsx}\" \"./src/**/*.{js,jsx,ts,tsx}\"",
-    "lint": "tslint -c ./tslint.json \"src/**/*\"",
+    "lint": "tslint -c ./tslint.json \"src/**/*.ts\"",
     "lint:fix": "tslint --fix -c ./tslint.json \"src/**/*.ts\"",
     "precommit": "npm run all",
     "prepublish": "npm run all",
@@ -58,5 +58,11 @@
     "tslint-config-airbnb": "^5.11.1",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.5.3"
+  },
+  "peerDependencies": {
+    "tslib": "^1.10.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
   }
 }
